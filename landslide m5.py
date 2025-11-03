@@ -12,9 +12,9 @@ ESP32_IP = "http://192.168.137.24"  # Replace with your ESP32 IP
 CSV_FILE = "landslide_data.csv"
 
 # Email settings
-SENDER_EMAIL = "rocketnaman27@gmail.com"
-SENDER_PASSWORD = "ipcvnzzvpbrjxwid"  # Replace with your 16-char Gmail App Password
-RECEIVER_EMAIL = "varunwason1@gmail.com"
+SENDER_EMAIL = "ENTER YOUR EMAIL ID"
+SENDER_PASSWORD = "ENTER 16 DIGIT PASSWORD"  # Replace with your 16-char Gmail App Password
+RECEIVER_EMAIL = "ENTER THE EAMIL ID FOR THE PERSON YOU WANT TO SEND THE MAIL"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465  # SSL port (more reliable than 587 STARTTLS)
 
@@ -113,3 +113,4 @@ if __name__ == "__main__":
     # Quick test of email system before main loop (optional)
     # send_email_alert("Test Email", "✅ This is a test of the landslide alert system.")
     main()
+
